@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lzf-0S-ruw">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tim-tO-Kjj">
+            <objects>
+                <viewController id="uS7-fL-yff" customClass="ViewController" customModule="NewsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v3Q-oR-TJo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cwu-mo-vp3">
+                                <rect key="frame" x="8" y="423" width="398" height="50"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="검색어를 입력하세요" borderStyle="roundedRect" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="9sB-gc-SJy">
+                                        <rect key="frame" x="0.0" y="0.0" width="348" height="50"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qd-c1-PIp">
+                                        <rect key="frame" x="348" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="fHy-2s-Z3p"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="oEs-Fs-gDt"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" imagePadding="0.0">
+                                            <imageReference key="image" image="magnifyingglass" catalog="system" symbolScale="default"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="SearchButton:" destination="uS7-fL-yff" eventType="touchUpInside" id="5Ev-13-f3i"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="96q-zn-o44"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="96q-zn-o44" firstAttribute="trailing" secondItem="Cwu-mo-vp3" secondAttribute="trailing" constant="8" id="Mcz-CN-kqb"/>
+                            <constraint firstItem="Cwu-mo-vp3" firstAttribute="leading" secondItem="96q-zn-o44" secondAttribute="leading" constant="8" id="clB-gO-qaQ"/>
+                            <constraint firstItem="Cwu-mo-vp3" firstAttribute="centerY" secondItem="v3Q-oR-TJo" secondAttribute="centerY" id="pMg-zL-kNh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="trX-pN-0rg"/>
+                    <connections>
+                        <outlet property="searchText" destination="9sB-gc-SJy" id="5y3-bl-j82"/>
+                        <segue destination="Qt5-P5-diq" kind="show" identifier="ArticleTableView" id="tV2-Mu-yoe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ENi-2a-8bj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1078" y="-96"/>
+        </scene>
+        <!--Article Table View-->
+        <scene sceneID="b8C-dp-3Fw">
+            <objects>
+                <tableViewController storyboardIdentifier="ArticleTableView" id="Qt5-P5-diq" customClass="ArticleTableView" customModule="NewsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="gEh-2Q-inw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <connections>
+                            <outlet property="dataSource" destination="Qt5-P5-diq" id="7S3-4o-Lfb"/>
+                            <outlet property="delegate" destination="Qt5-P5-diq" id="fZK-44-zt6"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="TuG-If-8r8"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xFO-QW-Zqq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-180" y="-96"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NwZ-oV-S5I">
+            <objects>
+                <navigationController id="lzf-0S-ruw" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9yP-yd-pxh">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="uS7-fL-yff" kind="relationship" relationship="rootViewController" id="Y1j-fZ-AYi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z4E-xJ-haV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1993" y="-96"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

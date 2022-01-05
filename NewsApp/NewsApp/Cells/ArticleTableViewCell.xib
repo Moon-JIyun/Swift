@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ArticleTableViewCell" rowHeight="131" id="v1v-rk-dbV" customClass="ArticleTableViewCell" customModule="NewsApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="131"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="v1v-rk-dbV" id="5E9-VL-FQ3">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="131"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xoL-23-mgh">
+                        <rect key="frame" x="8" y="8" width="398" height="24"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nGd-xd-i9c">
+                        <rect key="frame" x="8" y="40" width="398" height="83"/>
+                        <string key="text">Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="nGd-xd-i9c" secondAttribute="bottom" constant="8" id="9Nz-Nn-33D"/>
+                    <constraint firstItem="nGd-xd-i9c" firstAttribute="top" secondItem="xoL-23-mgh" secondAttribute="bottom" constant="8" id="EZu-gT-Xw9"/>
+                    <constraint firstItem="xoL-23-mgh" firstAttribute="top" secondItem="5E9-VL-FQ3" secondAttribute="top" constant="8" id="SJ1-uG-c0j"/>
+                    <constraint firstAttribute="trailing" secondItem="nGd-xd-i9c" secondAttribute="trailing" constant="8" id="Yot-bG-QOt"/>
+                    <constraint firstItem="xoL-23-mgh" firstAttribute="leading" secondItem="5E9-VL-FQ3" secondAttribute="leading" constant="8" id="gXz-in-g2g"/>
+                    <constraint firstItem="nGd-xd-i9c" firstAttribute="leading" secondItem="xoL-23-mgh" secondAttribute="leading" id="gtR-HA-VBy"/>
+                    <constraint firstAttribute="trailing" secondItem="xoL-23-mgh" secondAttribute="trailing" constant="8" id="nhd-qi-IDA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="DescriptionLabel" destination="nGd-xd-i9c" id="x3W-DJ-dcR"/>
+                <outlet property="titleLabel" destination="xoL-23-mgh" id="N2N-Pb-gY5"/>
+            </connections>
+            <point key="canvasLocation" x="257" y="25"/>
+        </tableViewCell>
+    </objects>
+</document>
