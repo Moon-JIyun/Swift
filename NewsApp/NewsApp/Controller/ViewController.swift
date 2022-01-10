@@ -12,7 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        searchText.setPlaceholderColor(color: .systemGray)
     }
 
     @IBAction func SearchButton(_ sender: UIButton) {
@@ -26,6 +27,12 @@ class ViewController: UIViewController {
             let vc = segue.destination as! ArticleTableView
             vc.queryValue = searchText.text!
         }
+    }
+}
+
+extension UITextField {
+    func setPlaceholderColor(color: UIColor) {
+        attributedPlaceholder = NSAttributedString(string: "검색어를 입력하세요", attributes: [.foregroundColor: color])
     }
 }
 
