@@ -11,10 +11,6 @@ import AVFoundation
 class TrackManager {
     
     var currentIndex: Int = 0
-    
-    
-    
-    
     var tracks: [AVPlayerItem] = []
     var albums: [Album] = []
     

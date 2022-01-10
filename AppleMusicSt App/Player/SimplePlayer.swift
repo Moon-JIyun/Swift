@@ -37,6 +37,12 @@ class SimplePlayer {
     
     func play() {
         player.play()
+        
+    }
+    
+    func stop() {
+        let time = CMTime(seconds: 0.0, preferredTimescale: 100)
+        player.seek(to: time)
     }
     
     func seek(to time:CMTime) {

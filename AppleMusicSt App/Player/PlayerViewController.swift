@@ -16,6 +16,8 @@ class PlayerViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var artistLabel: UILabel!
     
+    @IBOutlet weak var nextButton: UIButton!
+    @IBOutlet weak var prevButton: UIButton!
     @IBOutlet weak var playControlButton: UIButton!
     @IBOutlet weak var timeSlider: UISlider!
     @IBOutlet weak var currentTimeLabel: UILabel!
@@ -31,6 +33,7 @@ class PlayerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        simplePlayer.play()
         updatePlayButton()
         updateTime(time: CMTime.zero)
         timeObserver = simplePlayer.addPeriodicTimeObserver(forInterval: CMTime(seconds: 1, preferredTimescale: 10), queue: DispatchQueue.main) { time in
@@ -78,7 +81,7 @@ class PlayerViewController: UIViewController {
     @IBAction func playNextItem() {
         // pause if playing
         if simplePlayer.isPlaying {
-            simplePlayer.pause()
+            simplePlayer.stop()
             updatePlayButton()
         }
         
@@ -100,7 +103,7 @@ class PlayerViewController: UIViewController {
     @IBAction func playPrevItem() {
         // pause if playing
         if simplePlayer.isPlaying {
-            simplePlayer.pause()
+            simplePlayer.stop()
             updatePlayButton()
         }
         
@@ -129,6 +132,8 @@ extension PlayerViewController {
     
     func updateTintColor() {
         playControlButton.tintColor = DefaultStyle.Colors.tint
+        prevButton.tintColor = DefaultStyle.Colors.tint
+        nextButton.tintColor = DefaultStyle.Colors.tint
         timeSlider.tintColor = DefaultStyle.Colors.tint
     }
     

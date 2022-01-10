@@ -7,23 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		541F7906278ACC3E002AC800 /* memories (listen on spotify from 3am ep).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F78F0278ACC3E002AC800 /* memories (listen on spotify from 3am ep).mp3 */; };
+		541F7907278ACC3E002AC800 /* im trying to find myself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F78F1278ACC3E002AC800 /* im trying to find myself.mp3 */; };
+		541F7908278ACC3E002AC800 /* when the leaves start falling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F78F2278ACC3E002AC800 /* when the leaves start falling.mp3 */; };
+		541F7909278ACC3E002AC800 /* distant moon (spotify apple etc).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F78F3278ACC3E002AC800 /* distant moon (spotify apple etc).mp3 */; };
+		541F790A278ACC3E002AC800 /* aruarian dance [lounge version].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F78F4278ACC3E002AC800 /* aruarian dance [lounge version].mp3 */; };
+		541F790B278ACC3E002AC800 /* Bike Rides On The Block.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F78F5278ACC3E002AC800 /* Bike Rides On The Block.mp3 */; };
+		541F790C278ACC3E002AC800 /* Letting Go.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F78F6278ACC3E002AC800 /* Letting Go.mp3 */; };
+		541F790D278ACC3E002AC800 /* valentin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F78F7278ACC3E002AC800 /* valentin.mp3 */; };
+		541F790E278ACC3E002AC800 /* elijah who - hello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F78F8278ACC3E002AC800 /* elijah who - hello.mp3 */; };
+		541F790F278ACC3E002AC800 /* Moonlight!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F78F9278ACC3E002AC800 /* Moonlight!.mp3 */; };
+		541F7910278ACC3E002AC800 /* Getsomerest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F78FA278ACC3E002AC800 /* Getsomerest.mp3 */; };
+		541F7911278ACC3E002AC800 /* night calls.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F78FB278ACC3E002AC800 /* night calls.mp3 */; };
+		541F7912278ACC3E002AC800 /* Ocean ride __ 海の乗り.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F78FC278ACC3E002AC800 /* Ocean ride __ 海の乗り.mp3 */; };
+		541F7913278ACC3E002AC800 /* Missing U In The Raining Day.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F78FD278ACC3E002AC800 /* Missing U In The Raining Day.mp3 */; };
+		541F7914278ACC3E002AC800 /* Glow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F78FE278ACC3E002AC800 /* Glow.mp3 */; };
+		541F7915278ACC3E002AC800 /* Chamomile Tea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F78FF278ACC3E002AC800 /* Chamomile Tea.mp3 */; };
+		541F7916278ACC3E002AC800 /* [ asleep ].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F7900278ACC3E002AC800 /* [ asleep ].mp3 */; };
+		541F7917278ACC3E002AC800 /* Sampled in your own sweet way.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F7901278ACC3E002AC800 /* Sampled in your own sweet way.mp3 */; };
+		541F7918278ACC3E002AC800 /* always you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F7902278ACC3E002AC800 /* always you.mp3 */; };
+		541F7919278ACC3E002AC800 /* i fell in love with you one night in september..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F7903278ACC3E002AC800 /* i fell in love with you one night in september..mp3 */; };
+		541F791A278ACC3E002AC800 /* tranquility.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F7904278ACC3E002AC800 /* tranquility.mp3 */; };
+		541F791B278ACC3E002AC800 /* Sleepless.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 541F7905278ACC3E002AC800 /* Sleepless.mp3 */; };
+		54A2E056278AD20400F621CB /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A2E055278AD20400F621CB /* Player.storyboard */; };
 		54E12040278AC67300F80308 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E1203F278AC67300F80308 /* AppDelegate.swift */; };
 		54E12042278AC67300F80308 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E12041278AC67300F80308 /* SceneDelegate.swift */; };
-		54E12044278AC67300F80308 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E12043278AC67300F80308 /* ViewController.swift */; };
 		54E12047278AC67300F80308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E12045278AC67300F80308 /* Main.storyboard */; };
 		54E12049278AC67500F80308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E12048278AC67500F80308 /* Assets.xcassets */; };
 		54E1204C278AC67500F80308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E1204A278AC67500F80308 /* LaunchScreen.storyboard */; };
+		54E12054278AC74B00F80308 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E12053278AC74B00F80308 /* HomeViewController.swift */; };
+		54E12056278AC77200F80308 /* TrackCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E12055278AC77200F80308 /* TrackCollectionHeaderView.swift */; };
+		54E12058278AC79400F80308 /* TrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E12057278AC79400F80308 /* TrackCollectionViewCell.swift */; };
+		54E1205D278AC97A00F80308 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E1205C278AC97A00F80308 /* PlayerViewController.swift */; };
+		54E1205F278AC9AF00F80308 /* SimplePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E1205E278AC9AF00F80308 /* SimplePlayer.swift */; };
+		54E12063278ACA9900F80308 /* Extension+AVPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E12062278ACA9900F80308 /* Extension+AVPlayerItem.swift */; };
+		54E12065278ACAB200F80308 /* TrackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E12064278ACAB200F80308 /* TrackManager.swift */; };
+		54E12067278ACACA00F80308 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E12066278ACACA00F80308 /* Track.swift */; };
+		54E1206A278ACB0400F80308 /* DefaultStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E12069278ACB0400F80308 /* DefaultStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		541F78F0278ACC3E002AC800 /* memories (listen on spotify from 3am ep).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "memories (listen on spotify from 3am ep).mp3"; sourceTree = "<group>"; };
+		541F78F1278ACC3E002AC800 /* im trying to find myself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "im trying to find myself.mp3"; sourceTree = "<group>"; };
+		541F78F2278ACC3E002AC800 /* when the leaves start falling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "when the leaves start falling.mp3"; sourceTree = "<group>"; };
+		541F78F3278ACC3E002AC800 /* distant moon (spotify apple etc).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "distant moon (spotify apple etc).mp3"; sourceTree = "<group>"; };
+		541F78F4278ACC3E002AC800 /* aruarian dance [lounge version].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "aruarian dance [lounge version].mp3"; sourceTree = "<group>"; };
+		541F78F5278ACC3E002AC800 /* Bike Rides On The Block.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bike Rides On The Block.mp3"; sourceTree = "<group>"; };
+		541F78F6278ACC3E002AC800 /* Letting Go.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Letting Go.mp3"; sourceTree = "<group>"; };
+		541F78F7278ACC3E002AC800 /* valentin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = valentin.mp3; sourceTree = "<group>"; };
+		541F78F8278ACC3E002AC800 /* elijah who - hello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "elijah who - hello.mp3"; sourceTree = "<group>"; };
+		541F78F9278ACC3E002AC800 /* Moonlight!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Moonlight!.mp3"; sourceTree = "<group>"; };
+		541F78FA278ACC3E002AC800 /* Getsomerest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Getsomerest.mp3; sourceTree = "<group>"; };
+		541F78FB278ACC3E002AC800 /* night calls.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "night calls.mp3"; sourceTree = "<group>"; };
+		541F78FC278ACC3E002AC800 /* Ocean ride __ 海の乗り.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ocean ride __ 海の乗り.mp3"; sourceTree = "<group>"; };
+		541F78FD278ACC3E002AC800 /* Missing U In The Raining Day.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Missing U In The Raining Day.mp3"; sourceTree = "<group>"; };
+		541F78FE278ACC3E002AC800 /* Glow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Glow.mp3; sourceTree = "<group>"; };
+		541F78FF278ACC3E002AC800 /* Chamomile Tea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Chamomile Tea.mp3"; sourceTree = "<group>"; };
+		541F7900278ACC3E002AC800 /* [ asleep ].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[ asleep ].mp3"; sourceTree = "<group>"; };
+		541F7901278ACC3E002AC800 /* Sampled in your own sweet way.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sampled in your own sweet way.mp3"; sourceTree = "<group>"; };
+		541F7902278ACC3E002AC800 /* always you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "always you.mp3"; sourceTree = "<group>"; };
+		541F7903278ACC3E002AC800 /* i fell in love with you one night in september..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "i fell in love with you one night in september..mp3"; sourceTree = "<group>"; };
+		541F7904278ACC3E002AC800 /* tranquility.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tranquility.mp3; sourceTree = "<group>"; };
+		541F7905278ACC3E002AC800 /* Sleepless.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sleepless.mp3; sourceTree = "<group>"; };
+		54A2E055278AD20400F621CB /* Player.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Player.storyboard; sourceTree = "<group>"; };
 		54E1203C278AC67300F80308 /* AppleMusicSt App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleMusicSt App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54E1203F278AC67300F80308 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54E12041278AC67300F80308 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		54E12043278AC67300F80308 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		54E12046278AC67300F80308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54E12048278AC67500F80308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54E1204B278AC67500F80308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54E1204D278AC67500F80308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E12053278AC74B00F80308 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		54E12055278AC77200F80308 /* TrackCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCollectionHeaderView.swift; sourceTree = "<group>"; };
+		54E12057278AC79400F80308 /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewCell.swift; sourceTree = "<group>"; };
+		54E1205C278AC97A00F80308 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		54E1205E278AC9AF00F80308 /* SimplePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePlayer.swift; sourceTree = "<group>"; };
+		54E12062278ACA9900F80308 /* Extension+AVPlayerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+AVPlayerItem.swift"; sourceTree = "<group>"; };
+		54E12064278ACAB200F80308 /* TrackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackManager.swift; sourceTree = "<group>"; };
+		54E12066278ACACA00F80308 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		54E12069278ACB0400F80308 /* DefaultStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +99,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		541F78EF278ACC3E002AC800 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				541F78F0278ACC3E002AC800 /* memories (listen on spotify from 3am ep).mp3 */,
+				541F78F1278ACC3E002AC800 /* im trying to find myself.mp3 */,
+				541F78F2278ACC3E002AC800 /* when the leaves start falling.mp3 */,
+				541F78F3278ACC3E002AC800 /* distant moon (spotify apple etc).mp3 */,
+				541F78F4278ACC3E002AC800 /* aruarian dance [lounge version].mp3 */,
+				541F78F5278ACC3E002AC800 /* Bike Rides On The Block.mp3 */,
+				541F78F6278ACC3E002AC800 /* Letting Go.mp3 */,
+				541F78F7278ACC3E002AC800 /* valentin.mp3 */,
+				541F78F8278ACC3E002AC800 /* elijah who - hello.mp3 */,
+				541F78F9278ACC3E002AC800 /* Moonlight!.mp3 */,
+				541F78FA278ACC3E002AC800 /* Getsomerest.mp3 */,
+				541F78FB278ACC3E002AC800 /* night calls.mp3 */,
+				541F78FC278ACC3E002AC800 /* Ocean ride __ 海の乗り.mp3 */,
+				541F78FD278ACC3E002AC800 /* Missing U In The Raining Day.mp3 */,
+				541F78FE278ACC3E002AC800 /* Glow.mp3 */,
+				541F78FF278ACC3E002AC800 /* Chamomile Tea.mp3 */,
+				541F7900278ACC3E002AC800 /* [ asleep ].mp3 */,
+				541F7901278ACC3E002AC800 /* Sampled in your own sweet way.mp3 */,
+				541F7902278ACC3E002AC800 /* always you.mp3 */,
+				541F7903278ACC3E002AC800 /* i fell in love with you one night in september..mp3 */,
+				541F7904278ACC3E002AC800 /* tranquility.mp3 */,
+				541F7905278ACC3E002AC800 /* Sleepless.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		54E12033278AC67300F80308 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +147,57 @@
 		54E1203E278AC67300F80308 /* AppleMusicSt App */ = {
 			isa = PBXGroup;
 			children = (
+				54E12059278AC7CA00F80308 /* Home */,
+				54E12060278AC9C200F80308 /* Player */,
+				54E12068278ACADD00F80308 /* Track */,
+				54E1206B278ACB1400F80308 /* Style */,
 				54E1203F278AC67300F80308 /* AppDelegate.swift */,
 				54E12041278AC67300F80308 /* SceneDelegate.swift */,
-				54E12043278AC67300F80308 /* ViewController.swift */,
-				54E12045278AC67300F80308 /* Main.storyboard */,
 				54E12048278AC67500F80308 /* Assets.xcassets */,
 				54E1204A278AC67500F80308 /* LaunchScreen.storyboard */,
 				54E1204D278AC67500F80308 /* Info.plist */,
+				541F78EF278ACC3E002AC800 /* Resources */,
 			);
 			path = "AppleMusicSt App";
+			sourceTree = "<group>";
+		};
+		54E12059278AC7CA00F80308 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				54E12045278AC67300F80308 /* Main.storyboard */,
+				54E12053278AC74B00F80308 /* HomeViewController.swift */,
+				54E12057278AC79400F80308 /* TrackCollectionViewCell.swift */,
+				54E12055278AC77200F80308 /* TrackCollectionHeaderView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		54E12060278AC9C200F80308 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				54A2E055278AD20400F621CB /* Player.storyboard */,
+				54E1205C278AC97A00F80308 /* PlayerViewController.swift */,
+				54E1205E278AC9AF00F80308 /* SimplePlayer.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		54E12068278ACADD00F80308 /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				54E12062278ACA9900F80308 /* Extension+AVPlayerItem.swift */,
+				54E12064278ACAB200F80308 /* TrackManager.swift */,
+				54E12066278ACACA00F80308 /* Track.swift */,
+			);
+			path = Track;
+			sourceTree = "<group>";
+		};
+		54E1206B278ACB1400F80308 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				54E12069278ACB0400F80308 /* DefaultStyle.swift */,
+			);
+			path = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +258,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				541F790B278ACC3E002AC800 /* Bike Rides On The Block.mp3 in Resources */,
 				54E1204C278AC67500F80308 /* LaunchScreen.storyboard in Resources */,
+				541F790C278ACC3E002AC800 /* Letting Go.mp3 in Resources */,
+				541F7919278ACC3E002AC800 /* i fell in love with you one night in september..mp3 in Resources */,
+				541F791A278ACC3E002AC800 /* tranquility.mp3 in Resources */,
+				54A2E056278AD20400F621CB /* Player.storyboard in Resources */,
+				541F7915278ACC3E002AC800 /* Chamomile Tea.mp3 in Resources */,
 				54E12049278AC67500F80308 /* Assets.xcassets in Resources */,
+				541F7907278ACC3E002AC800 /* im trying to find myself.mp3 in Resources */,
+				541F7911278ACC3E002AC800 /* night calls.mp3 in Resources */,
+				541F7918278ACC3E002AC800 /* always you.mp3 in Resources */,
+				541F7910278ACC3E002AC800 /* Getsomerest.mp3 in Resources */,
+				541F7913278ACC3E002AC800 /* Missing U In The Raining Day.mp3 in Resources */,
 				54E12047278AC67300F80308 /* Main.storyboard in Resources */,
+				541F7916278ACC3E002AC800 /* [ asleep ].mp3 in Resources */,
+				541F790A278ACC3E002AC800 /* aruarian dance [lounge version].mp3 in Resources */,
+				541F7906278ACC3E002AC800 /* memories (listen on spotify from 3am ep).mp3 in Resources */,
+				541F7917278ACC3E002AC800 /* Sampled in your own sweet way.mp3 in Resources */,
+				541F7912278ACC3E002AC800 /* Ocean ride __ 海の乗り.mp3 in Resources */,
+				541F790E278ACC3E002AC800 /* elijah who - hello.mp3 in Resources */,
+				541F790F278ACC3E002AC800 /* Moonlight!.mp3 in Resources */,
+				541F7914278ACC3E002AC800 /* Glow.mp3 in Resources */,
+				541F7908278ACC3E002AC800 /* when the leaves start falling.mp3 in Resources */,
+				541F7909278ACC3E002AC800 /* distant moon (spotify apple etc).mp3 in Resources */,
+				541F790D278ACC3E002AC800 /* valentin.mp3 in Resources */,
+				541F791B278ACC3E002AC800 /* Sleepless.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +294,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54E12044278AC67300F80308 /* ViewController.swift in Sources */,
 				54E12040278AC67300F80308 /* AppDelegate.swift in Sources */,
+				54E12067278ACACA00F80308 /* Track.swift in Sources */,
+				54E1206A278ACB0400F80308 /* DefaultStyle.swift in Sources */,
+				54E1205F278AC9AF00F80308 /* SimplePlayer.swift in Sources */,
+				54E12063278ACA9900F80308 /* Extension+AVPlayerItem.swift in Sources */,
 				54E12042278AC67300F80308 /* SceneDelegate.swift in Sources */,
+				54E12065278ACAB200F80308 /* TrackManager.swift in Sources */,
+				54E12054278AC74B00F80308 /* HomeViewController.swift in Sources */,
+				54E12058278AC79400F80308 /* TrackCollectionViewCell.swift in Sources */,
+				54E12056278AC77200F80308 /* TrackCollectionHeaderView.swift in Sources */,
+				54E1205D278AC97A00F80308 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +381,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -294,8 +458,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,8 +487,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
