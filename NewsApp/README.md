@@ -1,3 +1,10 @@
 # NewsApp 
-- Naver 검색 API를 이용해, 키워드로 뉴스를 검색하고 Table View 에 검색 결과를 반환해주는 것을 공부했음.
-- 테이블뷰 셀을 클릭 시, 네이버 뉴스로 이동 or 오리지널 사이트로 이동하는 것을 추가로 구현해볼 예정임.
+
+
+
+### ◼︎ Naver News API 이용한 어플 ( MVVM Pattern ) 
+
+→ Naver 검색 API를 이용해 키워드 검색 후, 결과를 Table View 로 반환 </br>
+→ 검색 키워드에 붙는 태그를 replaceOccurrences를 통해 제거함 </br>
+
+<img src="https://user-images.githubusercontent.com/55011765/148769431-c663782f-e666-401e-90ee-3c7c0c3b40ac.png" width="200" height="400"/> <img src="https://user-images.githubusercontent.com/55011765/148769461-962868ce-a25a-4008-81bb-3fbf6b1a4d6c.png" width="200" height="400"/>
