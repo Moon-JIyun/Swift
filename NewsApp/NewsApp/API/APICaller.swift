@@ -13,8 +13,8 @@ import Foundation
 class NewsAPI {
 
     func APICaller(queryValue: String, completion: @escaping([NewsInfo]?)->()) {
-        let clientID: String = "IqUVLpCx1qlACFBZR6Kp"
-        let clientKey: String = "r3NkQnZGIT"
+        let clientID: String = "clientID"
+        let clientKey: String = "clientKey"
         
         let query: String = "https://openapi.naver.com/v1/search/news.json?query=\(queryValue)"
         let encodedQuery: String = query.addingPercentEncoding(withAllowedCharacters: NSCharacterSet.urlQueryAllowed)!
