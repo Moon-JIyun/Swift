@@ -5,15 +5,12 @@
 //  Created by jiyun moon on 2021/12/27.
 //
 
-// Client ID : IqUVLpCx1qlACFBZR6Kp
-// Client PW : r3NkQnZGIT
-
 import Foundation
 
 class NewsAPI {
 
     func APICaller(queryValue: String, completion: @escaping([NewsInfo]?)->()) {
-        let clientID: String = "clientID"
+        let clientID: String = "clientID". // api key 숨김.  
         let clientKey: String = "clientKey"
         
         let query: String = "https://openapi.naver.com/v1/search/news.json?query=\(queryValue)"
