@@ -10,7 +10,7 @@ import Foundation
 class NewsAPI {
 
     func APICaller(queryValue: String, completion: @escaping([NewsInfo]?)->()) {
-        let clientID: String = "clientID". // api key 숨김.  
+        let clientID: String = "clientID"// api key 숨김.
         let clientKey: String = "clientKey"
         
         let query: String = "https://openapi.naver.com/v1/search/news.json?query=\(queryValue)"
