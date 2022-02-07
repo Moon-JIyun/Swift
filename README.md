@@ -7,4 +7,4 @@
 
 ### ◼︎ Naver News API 이용한 어플 ( MVVM Pattern ) 
 
-# TodoList
+### ◼︎ To do list App 
