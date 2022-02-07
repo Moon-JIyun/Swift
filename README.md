@@ -4,7 +4,7 @@
 
 
 ### ◼︎ Apple Music Style App
-- [Apple Music App README](https://github.com/Moon-JIyun/Swift/blob/main/AppleMusicStApp/README.md)
+- [Apple Music App](https://github.com/Moon-JIyun/Swift/blob/main/AppleMusicStApp/README.md)
 
 ### ◼︎ Naver News API 이용한 어플 ( MVVM Pattern ) 
 - [Naver News API 적용](https://github.com/Moon-JIyun/Swift/blob/main/NewsApp/README.md)
