@@ -16,4 +16,4 @@
 - [Diary App](https://github.com/Moon-JIyun/Swift/blob/main/Diary/README.md)
 
 ### ◼︎ Timer App
--[Timer App](https://github.com/Moon-JIyun/Swift/blob/main/Timer/README.md)
+- [Timer App](https://github.com/Moon-JIyun/Swift/blob/main/Timer/README.md)
