@@ -17,3 +17,6 @@
 
 ### ◼︎ Timer App
 - [Timer App](https://github.com/Moon-JIyun/Swift/blob/main/Timer/README.md)
+
+### ◼︎ Covid19 App
+- [Covid19 App](https://github.com/Moon-JIyun/Swift/tree/main/Covid19/README.md)
