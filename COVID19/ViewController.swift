@@ -209,7 +209,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     func fetchCovidOverview( completionHandler: @escaping (Result<CityCovidOverview, Error> ) -> Void) {
         let url = "https://api.corona-19.kr/korea/country/new/"
         let param = [
-            "serviceKey" : "hJFazwPYxnv14iRolGcSbX978e5QIyWDU"
+            "serviceKey" : "your_api_key"
         ]
         
         AF.request(url, method: .get, parameters: param)
