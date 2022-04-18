@@ -6,4 +6,4 @@
   2. Lottie 를 이용한 애니메이션 구현
 
 
-<img src="https://user-images.githubusercontent.com/55011765/163821697-e8e8b980-3944-4acc-bb8e-c1cf133a1e93.gif" width ="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/55011765/163822927-af3b03ad-392b-47c9-a35f-5193b63dae83.gif" width ="200" height="400"/>
