@@ -20,3 +20,6 @@
 
 ### ◼︎ Covid19 App
 - [Covid19 App](https://github.com/Moon-JIyun/Swift/tree/main/Covid19/README.md)
+
+### ◼︎ Card Recommend List App
+- [CardRecommendApp](https://github.com/Moon-JIyun/Swift/tree/main/CreditCardList)
