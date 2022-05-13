@@ -6,13 +6,17 @@
 //
 
 import UIKit
+import UserNotifications
 
 class AlertListViewController: UITableViewController {
 
     var alert: [Alert] = []
+    let userNotificationCenter = UNUserNotificationCenter.current()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        requestNotiAuth()
         
         let nibName = UINib(nibName: "AlertListCell", bundle: nil)
         tableView.register(nibName, forCellReuseIdentifier: "AlertListCell")
@@ -22,6 +26,15 @@ class AlertListViewController: UITableViewController {
         super.viewWillAppear(animated)
         
         alert = alertList()
+    }
+    
+    func requestNotiAuth() {
+        let notiAuthOptions = UNAuthorizationOptions(arrayLiteral: [.alert, .badge, .sound])
+        userNotificationCenter.requestAuthorization(options: notiAuthOptions) { (success, error) in
+            if let error = error {
+                print(#function, error)
+            }
+        }
     }
 
 
@@ -40,6 +53,7 @@ class AlertListViewController: UITableViewController {
             self.alert = alertList
             
             UserDefaults.standard.set(try? PropertyListEncoder().encode(self.alert), forKey: "alerts")
+            self.userNotificationCenter.addNotificationRequest(by: newAlert)
             
             self.tableView.reloadData()
         }
@@ -91,8 +105,10 @@ extension AlertListViewController {
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         switch editingStyle {
         case .delete:
+            userNotificationCenter.removePendingNotificationRequests(withIdentifiers: [alert[indexPath.row].id])
             self.alert.remove(at: indexPath.row)
             UserDefaults.standard.set(try? PropertyListEncoder().encode(self.alert), forKey: "alerts" )
+
             self.tableView.reloadData()
             return
         default:
