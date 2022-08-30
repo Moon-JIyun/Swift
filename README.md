@@ -28,4 +28,4 @@
 - [DrinkWater](https://github.com/Moon-JIyun/Swift/blob/main/drinkWaterAlarm/)
 
 ### ◼︎ Netflix Clone
-- [DrinkWater](https://github.com/Moon-JIyun/Swift/tree/main/NetflixClone)
+- [Netflix Clone](https://github.com/Moon-JIyun/Swift/tree/main/NetflixClone)
