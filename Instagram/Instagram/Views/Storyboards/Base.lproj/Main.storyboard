@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" systemColor="quaternaryLabelColor"/>
+                        <color key="selectedImageTintColor" systemColor="labelColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="TI0-kT-T9W" kind="relationship" relationship="viewControllers" id="Cwg-2c-1Ot"/>
@@ -68,7 +68,7 @@
         <scene sceneID="EZN-mx-15T">
             <objects>
                 <navigationController id="J2v-Ah-Das" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="globe" catalog="system" id="sVl-Fo-esE"/>
+                    <tabBarItem key="tabBarItem" title="" image="magnifyingglass" catalog="system" id="sVl-Fo-esE"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="j8N-fv-G7i">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -85,7 +85,7 @@
         <scene sceneID="j30-W4-osw">
             <objects>
                 <navigationController id="weV-bX-wdw" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="bell" catalog="system" id="ITd-ys-zNv"/>
+                    <tabBarItem key="tabBarItem" title="" image="heart" catalog="system" id="ITd-ys-zNv"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="sOJ-DH-OTE">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -132,10 +132,10 @@
             </objects>
             <point key="canvasLocation" x="2194" y="453"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="eFn-aa-zUn">
             <objects>
-                <viewController id="7cu-tr-5oz" sceneMemberID="viewController">
+                <viewController id="7cu-tr-5oz" customClass="ProfileViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ltp-Ja-4Jv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -148,10 +148,10 @@
             </objects>
             <point key="canvasLocation" x="2193" y="1195"/>
         </scene>
-        <!--View Controller-->
+        <!--Search View Controller-->
         <scene sceneID="Wmn-DE-8gW">
             <objects>
-                <viewController id="kI7-Dv-dyo" sceneMemberID="viewController">
+                <viewController id="kI7-Dv-dyo" customClass="SearchViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zu9-T8-vmm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -198,13 +198,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bell" catalog="system" width="128" height="124"/>
-        <image name="globe" catalog="system" width="128" height="121"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
         <image name="house" catalog="system" width="128" height="106"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="person" catalog="system" width="128" height="117"/>
         <image name="plus" catalog="system" width="128" height="113"/>
-        <systemColor name="quaternaryLabelColor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.17999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
